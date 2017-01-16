@@ -26,6 +26,11 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'tomasr/molokai'
 Plugin 'yggdroot/indentline'
 Plugin 'bling/vim-bufferline'
+Plugin 'myusuf3/numbers.vim'
+Plugin 'mhinz/vim-startify'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'gregsexton/gitv'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

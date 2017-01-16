@@ -2,6 +2,10 @@ colorscheme molokai
 
 "Custome Settings
 set nu
+"tab key is 4 spaces
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 " Custome Keymap
 " Leader
@@ -19,9 +23,9 @@ map <leader>bp :bp<cr>
 map <leader>bd :bd<cr>  
 
 " NERD Tree
-" Show NERD Tree at start up
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" Show NERD Tree at start up (conflict with vim-startify)
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Show NERD Tree on the right side
 let g:NERDTreeWinPos = "right"
 " Close vim when the NERDTree is the only window
