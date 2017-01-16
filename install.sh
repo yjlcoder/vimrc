@@ -1,15 +1,16 @@
 # !/bin/sh
 
 # Backup
-cp ~/.vimrc ~/.vimrc.bak
-cp ~/.vim ~/.vim.bak
+echo "Backuping .vim and .vimrc"
+mv ~/.vimrc ~/.vimrc.bak
+mv ~/.vim ~/.vim.bak
 
 # vimrc
+echo "Generating vimrc file"
 echo "source ~/.vim/vundle.vim
 source ~/.vim/custom.vim" > ~/.vimrc
 
 # link
-rm -rf ~/.vim
 ln -s ~/.vim_jace ~/.vim
 
 # Install vumdle
