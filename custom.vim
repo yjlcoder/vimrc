@@ -18,6 +18,7 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 "Switch buffer
+nnoremap <silent> <leader>bd :Bclose<CR>
 map <leader>bn :bn<cr>
 map <leader>bp :bp<cr>
 "map <leader>bd :bd<cr>  
