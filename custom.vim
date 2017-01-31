@@ -20,7 +20,7 @@ map <C-l> <C-W>l
 "Switch buffer
 map <leader>bn :bn<cr>
 map <leader>bp :bp<cr>
-map <leader>bd :bd<cr>  
+"map <leader>bd :bd<cr>  
 
 "Not go to the very bottom of the page
 set scrolloff=5
