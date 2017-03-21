@@ -41,3 +41,7 @@ let g:nerdtree_tabs_autoclose=0
 
 "DelimitMate newline after brace
 let delimitMate_expand_cr=1
+
+"Airline
+set laststatus=2
+set t_Co=256
