@@ -3,7 +3,7 @@ vimrc repo
 ## Install
 
 ```
-git clone https://github.com/LovingYoung/vimrc.git ~/.git_jace
+git clone https://github.com/LovingYoung/vimrc.git ~/.vim_jace
 bash ~/.git_jace/install.sh
 ```
 
@@ -16,5 +16,5 @@ bash ~/.git_jace/install.sh
 ## Uninstall
 
 ```
-bash ~/.git_jace/uninstall.sh
+bash ~/.vim_jace/uninstall.sh
 ```
