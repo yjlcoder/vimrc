@@ -4,7 +4,7 @@ vimrc repo
 
 ```
 git clone https://github.com/LovingYoung/vimrc.git ~/.vim_jace
-bash ~/.git_jace/install.sh
+bash ~/.vim_jace/install.sh
 ```
 
 `:BundleInstall` after opening vim (Tips: It maybe some errors when you open vim at the first time, don't worry)
