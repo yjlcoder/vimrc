@@ -7,7 +7,7 @@ git clone https://github.com/LovingYoung/vimrc.git ~/.vim_jace
 bash ~/.vim_jace/install.sh
 ```
 
-`:BundleInstall` after opening vim (Tips: It maybe some errors when you open vim at the first time, don't worry)
+`:BundleInstall` after opening vim (Tips: There is one error at first open, don't worry)
 
 ### For neovim
 
