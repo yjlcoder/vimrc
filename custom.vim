@@ -47,3 +47,9 @@ set laststatus=2
 set t_Co=256
 syntax on
 set visualbell
+
+"Vim-auto-save
+let g:auto_save = 1
+let g:auto_save_no_updatetime = 1
+let g:auto_save_in_insert_mode = 0
+let g:auto_save_silent = 1
